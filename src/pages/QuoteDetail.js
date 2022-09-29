@@ -28,7 +28,7 @@ const QuoteDetail = () => {
           <div className="centered">
             <Link
               className="btn--flat"
-              to={`/quotes/${params.quoteId}/comments`}
+              to={`${match.url}/comments`}
             >
               Load Comments
             </Link>
