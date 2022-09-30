@@ -19,7 +19,7 @@ const sortQuotes = (quotes, ascending) => {
 const QuoteList = (props) => {
     const history = useHistory();
     const location = useLocation();
-    const match = useRouteMatch();
+    // const match = useRouteMatch();
 
 
 const queryParams = new URLSearchParams(location.search);
